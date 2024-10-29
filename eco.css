@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:serif;
+  }
+  header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:100;
+    position:fixed;
+  }
+  nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 60px;
+    color:#fff;
+    background-color: black;
+    height: 20px;
+  }
+  .logo h1{
+    margin:0;
+    font-family: 35px;
+  }
+  .nav-links{
+    display:flex;
+    align-items:center;
+  }
+  .links{
+    list-style:none;
+    display:flex;
+    margin-right:25px;
+  }
+  .links li{
+    margin:0;
+    padding: 0px 12px;
+  }
+  .links li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:#fff;
+    transition: 0.4s ease;
+  }
+  .links li a:hover{
+    color:red;
+  }
+  .links li.active{
+    color:red;
+  }
+  .hero{
+    position:relative;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(cn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size:20px;
+  }
+  .content h1{
+    
+    font-size:45px;
+    margin-bottom: 20px;
+    margin-left:200px;
+  }
+  .content p{
+    font-size:18px;
+    margin-bottom: 40px;
+    
+    margin-left: 130px;
+    
+  }
+  .content .btn{
+    font-size: 19px;
+    padding: 10px 20px;
+    background-color:red;
+    color:#fff;
+    border-radius:5px;
+    text-decoration: none;
+    transition: 0.4s ease;
+    margin-left:300px;
+  }
+  .content .btn:hover{
+    background-color: blue;
+  }
+  
+  
+  .navbar{
+    min-height:60vh;
+    width:80%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(sl.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    margin-left:140px;
+    color:white;
+  }
+  nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile-image{
+    width:50%;
+    position:absolute;
+    top:60%;
+    left:34%;
+    transform:translate(32%,-48%);
+  }
+  .title h1{
+    font-size:40px;
+    margin-bottom:5px;
+    color:#fff;
+  }
+  .title p{
+    font-size:18px;
+    margin-bottom: 20px;
+    
+  }
+  button{
+    font-size: 15px;
+    padding:8px 17px;
+    background-color:red;
+    color:#fff;
+    border-radius:5px;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
